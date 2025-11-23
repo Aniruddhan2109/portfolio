@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: black;
+      font-family: "Poppins", Arial, sans-serif;
+      color: gold;
+      scroll-behavior: smooth;
+    }
+
+    nav {  
+      height: 15vh;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-right: 20px ;   
+      background-color:black;
+      position: fixed;
+      border-bottom: 2px solid gold;
+    }
+
+    h1 {
+      font-size: 28px;
+      letter-spacing: 2px;
+      color: whitesmoke;
+      font-family: 'Times New Roman', Times, serif;
+      padding-left: 20px;
+    }
+
+    .nav a {
+      color: gold;
+      text-decoration: none;
+      font-size: 18px;
+      position: relative;
+      padding-left: 20px;
+      transition: color 0.3s ease;
+    }    
+    
+    .nav a:hover {
+      color: snow;
+      width: 50%;
+      height: 50%;
+      filter: drop-shadow(-10px 6px 10px whitesmoke);
+    }
+
+    section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      min-height: 100vh;
+      animation: fadeIn 2s ease;
+      padding-top: 100px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .home h1 {
+      font-size: 45px;
+      margin-bottom: 25px;
+      color: whitesmoke;
+      text-align: center;
+      filter: drop-shadow(4px 6px 10px gold);
+    }
+
+    .home h2 {
+      font-size: 22px;
+      margin-bottom: 25px;
+      color: goldenrod;
+      text-align: center;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .contactinfo {
+      font-size: 18px;
+      padding-top: 10px;
+      line-height: 1.6;
+      color: #ddd;
+    }
+
+    .about {
+      text-align: left;
+      line-height: 1.8;
+      color: #f5f5f5;
+    }
+
+    .about h2 {
+      font-size: 32px;
+      margin-bottom: 30px;
+      color: gold;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      text-align: center;
+    }
+
+    .about p {
+      font-size: 18px;
+      margin-bottom: 18px;
+      text-align: justify;
+    }
+
+    ul {
+      margin-left: 25px;
+      margin-bottom: 20px;
+    }
+
+    ul li {
+      margin-bottom: 8px;
+      font-size: 18px;
+      color: #f0e68c;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(40px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <h1>PORTFOLIO</h1>
+    <div class="nav">
+      <a href="#home">HOME</a>
+      <a href="#about">ABOUT</a>
+      <a href="#education">EDUCATION</a>
+      <a href="#skills">SKILLS</a>
+      <a href="#projects">PROJECTS</a>
+      <a href="#contact">CONTACT</a>
+    </div>
+  </nav>
+
+  <section id="home" class="home">
+    <div class="container">
+      <h1>ANIRUDDHAN M</h1>
+      <h2>UI & UX DESIGNER | JAVA DEVELOPER</h2>
+      <div class="contactinfo">
+      <h3>Contact: 9894301357 | Mail: anirudhanmarirajan@gmail.com | Location: Madurai</h3>
+      </div>
+    </div>
+  </section>
+
+ <section id="about" class="about">
+  <div class="container">
+    <h2>About Me</h2>
+    <p>
+      I am a <strong>UI/UX Designer</strong> and <strong>Java Full Stack Developer</strong> passionate about creating 
+      user-friendly, responsive, and high-performing digital solutions. I completed my 
+      <strong>B.Sc. in Networking</strong> at <strong>Subbalakshmi Lakshmipathi College of Science</strong>, 
+      where I built a strong foundation in <strong>networking, design, programming, and web development</strong>.
+    </p>
+
+    <p>
+      I have hands-on experience with <strong>UI/UX design tools</strong> such as 
+      <strong>Figma</strong>, <strong>Adobe XD</strong>, and <strong>Sketch</strong>, specializing in 
+      <strong>wireframing</strong>, <strong>prototyping</strong>, and <strong>modern interface design</strong>.
+    </p>
+
+    <p>
+      I have successfully completed <strong>two major projects</strong>:
+    </p>
+    <ul>
+      <li> <strong>Bike Sales and Maintenance App</strong> – Designed and developed at <em>Innovel Institute</em></li>
+      <li> <strong>Supermarket Billing and Management System</strong> – A complete design and workflow project</li>
+    </ul>
+
+    <p>
+      Additionally, I completed a <strong>3-month internship</strong> at <strong>Izeon Innovation, Chennai</strong>, 
+      as a <strong>Frontend Developer</strong>, where I worked with 
+      <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong> to build responsive web interfaces.
+    </p>
+
+    <p>
+      Currently, I am pursuing <strong>Java Full Stack Development</strong>, focusing on:
+    </p>
+    <ul>
+      <li><strong>Core Java:</strong> OOP Concepts (Encapsulation, Inheritance, Polymorphism, Abstraction), Exception Handling, Collections, File Handling</li>
+      <li><strong>Advanced Java:</strong> JDBC with PostgreSQL</li>
+      <li><strong>Frontend:</strong> HTML, CSS and UI/UX Integration</li>
+    </ul>
+
+    <p>
+      I am also currently pursuing an <strong>internship in UI/UX and Frontend Development</strong>, 
+      where I am working with <strong>Figma</strong>, <strong>HTML</strong>, <strong>CSS</strong>, and  to enhance my design-to-development workflow skills.
+    </p>
+  </div>
+</section>
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>
